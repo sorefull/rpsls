@@ -14,7 +14,7 @@ $(document).ready(function(){
 
     var arr = ['Lizard', 'Paper', 'Rock', 'Scissors', 'Spock'];
     var user = this.id;
-    var server = arr[Math.floor(Math.random()*3)];
+    var server = arr[Math.floor(Math.random()*5)];
     var result;
 
     switch (user) {
