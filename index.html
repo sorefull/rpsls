@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RPSLS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- <button class="btn" type="button" id="rock">Rock</button>
+    <button class="btn" type="button" id="paper">Paper</button>
+    <button class="btn" type="button" id="scizors">Scizors</button> -->
+    <div class="container">
+    <div class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills float-right">
+          <li class="nav-item">
+            <a class="nav-link" href="http://bigbangtheory.wikia.com/wiki/Rock_Paper_Scissors_Lizard_Spock">Wiki</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">RPSLS online</h3>
+    </div>
+
+    <div class="jumbotron">
+      <h1 class="display-3">Rock Paper Scissors Lizard Spock</h1>
+      <p class="lead">Scissors cuts Paper, Paper covers Rock, Rock crushes Lizard, Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper, Paper discoves Spock, Spock vaporizes Rock, and, as it always has, Rock crushes Scissors. It's simple.<br>"Sheldon Cooper" (c)</p>
+    </div>
+
+    <div class="result centered"></div>
+
+    <div class="row marketing">
+      <div class="col-lg-2 offset-xs-1 col-sm-2 col-xs-2 offset-lg-1 offset-md-1">
+        <img src="images/lizard.png" alt="lizard" class="resp-img" id="Lizard">
+        <p class="centered">Lizard</p>
+      </div>
+      <div class="col-lg-2 col-sm-2 col-xs-2">
+        <img src="images/paper.png" alt="paper" class="resp-img" id='Paper'>
+        <p class="centered">Paper</p>
+      </div>
+      <div class="col-lg-2 col-sm-2 col-xs-2">
+        <img src="images/rock.png" alt="rock" class="resp-img" id='Rock'>
+        <p class="centered">Rock</p>
+      </div>
+      <div class="col-lg-2 col-sm-2 col-xs-2">
+        <img src="images/scissors.png" alt="scissors" class="resp-img" id="Scissors">
+        <p class="centered">Scissors</p>
+      </div>
+      <div class="col-lg-2 col-sm-2 col-xs-2">
+        <img src="images/spock.png" alt="spock" class="resp-img" id="Spock">
+        <p class="centered">Spock</p>
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <p>&copy; <a href="https://github.com/sorefull">Oleg Cherednichenko</a> 2017</p>
+    </footer>
+
+  </div>
+  </body>
+</html>
